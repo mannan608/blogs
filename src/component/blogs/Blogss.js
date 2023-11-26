@@ -11,7 +11,7 @@ const Blogss = () => {
 
   useEffect(() => {
     dispatch(fetchBlogs());
-  });
+  }, [dispatch]);
   // decide what to render
   let content;
 
