@@ -13,3 +13,13 @@
 .blogs-wrapper .row .col-lg-4 {
   padding: 0 20px;
 }
+
+.btn.active {
+  color: red;
+  cursor: not-allowed;
+}
+
+.btn.active:hover {
+  color: red;
+  cursor: not-allowed;
+}

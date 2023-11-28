@@ -31,7 +31,7 @@ const Blogss = () => {
   }
 
   return (
-    <div className="blogs-wrapper">
+    <div className="blogs-wrapper w-75">
       <div className="row">{content}</div>
     </div>
   );
